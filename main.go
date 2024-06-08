@@ -22,7 +22,7 @@ import (
 	"github.com/vbauerster/mpb/v8/decor"
 )
 
-//go:embed *
+//go:embed *.go *.mod *.sum *.md
 var sourceCode embed.FS
 
 func main() {
